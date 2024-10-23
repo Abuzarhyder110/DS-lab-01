@@ -1,0 +1,24 @@
+# Write C++ program to add two integer values and print the output with descriptive 
+message.
+
+#include <iostream>
+
+int main() {
+    // Declare two integer variables
+    int num1, num2, sum;
+
+    // Ask the user for input
+    std::cout << "Enter the first integer: ";
+    std::cin >> num1;
+
+    std::cout << "Enter the second integer: ";
+    std::cin >> num2;
+
+    // Calculate the sum
+    sum = num1 + num2;
+
+    // Print the result with a descriptive message
+    std::cout << "The sum of " << num1 << " and " << num2 << " is " << sum << "." << std::endl;
+
+    return 0;
+}
