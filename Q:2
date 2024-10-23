@@ -1,0 +1,21 @@
+# Write C++ program to convert temperature from centigrade to Fahrenheit.
+
+#include <iostream>
+
+int main() {
+    // Declare a variable for temperature in Centigrade
+    double centigrade, fahrenheit;
+
+    // Ask the user for input
+    std::cout << "Enter temperature in Centigrade: ";
+    std::cin >> centigrade;
+
+    // Convert Centigrade to Fahrenheit
+    fahrenheit = (centigrade * 9.0 / 5.0) + 32;
+
+    // Print the result
+    std::cout << centigrade << " degrees Centigrade is equal to " 
+              << fahrenheit << " degrees Fahrenheit." << std::endl;
+
+    return 0;
+}
